@@ -49,9 +49,4 @@ document.addEventListener('DOMContentLoaded', function () {
             addTask();
         }
     });
-
-    // Invoke addTask on DOMContentLoaded (optional initial run)
-    // This ensures the function is available immediately
-    // but does not add a task unless triggered by user input
-    // addTask(); // Uncomment if you want to auto-run once loaded
 });
